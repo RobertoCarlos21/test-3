@@ -1,0 +1,7 @@
+x = []
+max_number = int(input('Can you provide a max number?'))
+for i in range(1, max_number):
+    if i % 2 == 1:
+        x.append(i)
+print('These are the odd ones out!:',x)
+
